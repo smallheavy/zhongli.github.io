@@ -341,7 +341,7 @@ a:focus {
 }
 
 #clients {
-    color: #f5f5f5;
+    color: #fff;
     background: #f5f5f5;
 }
 
@@ -440,12 +440,11 @@ a:focus {
     color: #222;
 }
 
-#contact {
-    background: url(../img/cover/contact.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+#contact{
+    color: #fff;
+    background: #233b6f;
 }
+
 
 #contact,
 #contact a,
