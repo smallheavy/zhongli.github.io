@@ -4,6 +4,7 @@ html {
     font-size: 14px;
 }
 li {
+  
     margin-bottom:20px;
     text-align: center;
 }
@@ -472,7 +473,7 @@ a:focus {
 }
 
 #footer {
-    padding: 4rem 0;
+    padding: 2rem 0;
     color: #ccc;
     text-align: center;
     background: #233b6f;
