@@ -450,12 +450,11 @@ a:focus {
 #contact a,
 #contact a:hover,
 #contact a:focus {
-   color: #fff
 
 }
 
 #contact .heading .border {
-    background: #f5f5f5;
+    background:#f5b76a；
 }
 
 #contact a {
