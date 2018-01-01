@@ -3,6 +3,11 @@
 html {
     font-size: 14px;
 }
+p {
+    width : auto;  // 必设
+    display : inline-block; // 不能设置为block
+    text-align : left; // 居左显示
+}
 
 body {
     font-family: "Source Sans Pro", sans-serif;
