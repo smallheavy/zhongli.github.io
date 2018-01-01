@@ -4,9 +4,10 @@ html {
     font-size: 14px;
 }
 li {
-   dispaly：block
+    dispaly：block
+	margin-top:20px;
     margin-bottom:20px;
-    text-align: center;
+    text-align: left;
 }
 
 p {display: inline-block; text-align: left;}
