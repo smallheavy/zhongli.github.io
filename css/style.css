@@ -13,7 +13,7 @@ li {
 p {display: inline; text-align: left; height:15px;}
 .black_overlay{ 
             display: none; 
-            position: absolute; 
+            
             top: 0%; 
             left: 0%; 
             width: 100%; 
@@ -26,9 +26,9 @@ p {display: inline; text-align: left; height:15px;}
         } 
 .white_content { 
             display: none; 
-            position: absolute; 
+           
             top: 25%; 
-            left: 25%; 
+            left: 15%; 
             width: 65%; 
             height: 65%; 
             padding: 20px; 
