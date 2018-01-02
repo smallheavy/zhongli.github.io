@@ -7,9 +7,10 @@ li {
     dispaly：inline-flex;
     margin-bottom:20px;
     text-align: left;
+	height:30px
 }
 
-p {display: inline-block; text-align: left;}
+p {display: inline-block; text-align: left; height:15px;}
 
 body {
     font-family: "Source Sans Pro", sans-serif;
