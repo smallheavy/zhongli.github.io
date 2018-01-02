@@ -27,8 +27,8 @@ p {display: inline; text-align: left; height:15px;}
 .white_content { 
             display: none; 
            
-            top: 25%; 
-            left: 15%; 
+            top: 50%; 
+            left: 50%; 
             width: 65%; 
             height: 65%; 
             padding: 20px; 
