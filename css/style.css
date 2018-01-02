@@ -4,7 +4,7 @@ html {
     font-size: 14px;
 }
 li {
-    dispaly：block;
+    dispaly：inline-flex;
     margin-bottom:20px;
     text-align: left;
 }
