@@ -27,9 +27,10 @@ p {display: inline; text-align: left; height:15px;}
 .white_content { 
             display: none; 
             position: absolute; 
-         
-            width: 35%; 
-            height: 35%; 
+            top: 25%; 
+            left: 25%; 
+            width: 45%; 
+            height: 45%; 
             padding: 20px; 
             background-color: white; 
             z-index:1002; 
