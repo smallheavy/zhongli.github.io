@@ -16,7 +16,7 @@ p {display: inline; text-align: left; height:15px;}
 .black_overlay{ 
             display: none; 
             position: absolute; 
-	    margin:0 ;padding:0;
+	   
             top: 0%; 
             left: 0%; 
             width: 100%; 
@@ -41,7 +41,7 @@ p {display: inline; text-align: left; height:15px;}
             overflow: auto; 
         } 
 body {
-    font-family: "Source Sans Pro", sans-serif; margin:0 ;padding:0;
+    font-family: "Source Sans Pro", sans-serif; 
 }
 
 h1,
