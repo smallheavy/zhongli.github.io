@@ -12,7 +12,7 @@ li {
 
 p {display: inline; text-align: left; height:15px;}
 
-
+*{margin:0 ;padding:0}
 .black_overlay{ 
             display: none; 
             position: absolute; 
