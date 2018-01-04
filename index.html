@@ -19,27 +19,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href="css/zzsc.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-	$(".showdiv").click(function(){
-		var box =300;
-		var th= $(window).scrollTop()+$(window).height()/1.6-box;
-		var h =document.body.clientHeight;
-		var rw =$(window).width()/2-box;
-		$(".showbox").animate({top:th,opacity:'show',width:600,height:340,right:rw},500);
-		$("#zhezhao").css({
-			display:"block",height:$(document).height()
-		});
-		return false;
-	});
-	$(".showbox .close").click(function(){
-		$(this).parents(".showbox").animate({top:0,opacity: 'hide',width:0,height:0,right:0},500);
-		$("#zhezhao").css("display","none");
-	});
-});
-</script>
+    
 </head>
 <body>
 
@@ -108,17 +88,7 @@ $(document).ready(function(){
                         <i class="fa fa-globe fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="#">Internet of Vehicles</a></h3>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                       <a class="showdiv" href="http://www.xwcms.net/jiaoben">点击我弹出浮层</a>
-	<div class="showbox">
-		<h2>xw素材网简介<a class="close" href="#">关闭</a></h2>
-		<div class="mainlist">
-			<p>xw素材网是一个致力于提供优质免费素材浏览与下载的交流和学习平台，网站专注于为各类用户提供PSD素材，矢量素材，图标素材，图片素材，字体素材等各类素材，旨在让每一位素材需求者都能够轻松找到自己想要的素材。</p>
-<p>xw素材网自建立以来一直致力于提供优质的免费素材下载，目标是成为国内最优质的免费素材下载站。xw素材网专注于提供免费素材下载，其内容涵盖JS代码，PSD素材，矢
-量素材，图标素材，图片素材，字体素材等，让每一个需求者都能轻松找到自己想要的素材</p>
-<p>经过多年多的经验累积和创新发展，网站还进一步明确xw素材网网是一个致力于提供优质免费素材浏览与下载的交流和学习平台，网站专注于为各类用户提供PSD素材，矢量素材，图标素材，图片素材，字体素材等各类素材，旨在让每一位素材需求者都能够轻松找到自己想要的素材。</p>
-		</div>
-	</div>	
-	<div id="zhezhao"></div>
+                       
                        
                         
                         
