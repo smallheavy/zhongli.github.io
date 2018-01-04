@@ -19,6 +19,57 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+  html,body {
+    margin:0;
+    height:100%;
+}
+#test {
+    width:100%;
+    height:100%;
+    background-color:#000;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    opacity:0.3;
+    /*兼容IE8及以下版本浏览器*/
+    filter: alpha(opacity=30);
+    display:none;
+}
+
+#log_window {
+    width:200px;
+    height:200px;
+    background-color:#FF0;    
+    margin: auto;
+    position: absolute;
+    z-index:3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:none;
+}
+</style>
+<script>
+function shield(){
+    var s = document.getElementById("test");
+    s.style.display = "block";
+    
+    var l = document.getElementById("log_window");
+    l.style.display = "block";
+}
+
+function cancel_shield(){
+    var s = document.getElementById("test");
+    s.style.display = "none";
+    
+    var l = document.getElementById("log_window");
+    l.style.display = "none";
+}
+</script>
+    
     
 </head>
 <body>
@@ -89,6 +140,11 @@
                         <h3 class="mt-5 mb-4"><a href="#">Internet of Vehicles</a></h3>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
                        
+                        <a href="javascript:shield()">打开遮罩</a>
+<div id="test"></div>
+<div id="log_window">
+<a href="javascript:cancel_shield()">关闭</a>
+</div>
                        
                         
                         
