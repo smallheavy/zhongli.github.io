@@ -43,6 +43,35 @@
     right: 0;
     display:none;
 }
+        
+        
+         #test1 {
+    width:100%;
+    height:100%;
+    background-color:#00CACA;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+    opacity:0.3;
+    /*兼容IE8及以下版本浏览器*/
+    filter: alpha(opacity=30);
+    display:none;
+}
+
+#log_window1 {
+    width:200px;
+    height:200px;
+    background-color:#FFD306;    
+    margin: auto;
+    position: absolute;
+    z-index:3;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:none;
+}
 </style>
 <script>
 function shield(){
@@ -58,6 +87,23 @@ function cancel_shield(){
     s.style.display = "none";
     
     var l = document.getElementById("log_window");
+    l.style.display = "none";
+}
+    
+    
+    function shield1(){
+    var s = document.getElementById("test1");
+    s.style.display = "block";
+    
+    var l = document.getElementById("log_window1");
+    l.style.display = "block";
+}
+
+function cancel_shield1(){
+    var s = document.getElementById("test1");
+    s.style.display = "none";
+    
+    var l = document.getElementById("log_window1");
     l.style.display = "none";
 }
 </script>
@@ -157,10 +203,10 @@ function cancel_shield(){
                         <i class="fa fa-cloud fa-5x"></i>
                         <h3 class="mt-5 mb-4"><a href="#">Mobile Social Networks</a></h3>
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque lau dantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
-                         <a href="javascript:shield()">打开遮罩</a>
-<div id="testa"></div>
-<div id="log_windowa">
-<a href="javascript:cancel_shield()">关闭</a>
+                         <a href="javascript:shield1()">打开遮罩</a>
+<div id="test1"></div>
+<div id="log_window1">
+<a href="javascript:cancel_shield1()">关闭</a>
 </div>
                         
                         
