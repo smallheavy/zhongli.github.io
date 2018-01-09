@@ -21,10 +21,11 @@ body {
 h5{text-align:justify; text-justify:inter-ideograph;}
 
 h6 {
-    font-weight: 350;
-    letter-spacing: -.01rem;
-	text-align:justify; 
+    font-weight: 300;
+    letter-spacing: -.02rem;
+	
 }
+h7{text-align:justify; }
 
 *,
 *:focus {
