@@ -10,7 +10,7 @@ li {
 	height:30px;
 }
 
-p {display: inline; text-align: left; height:15px;}
+p {display: inline; text-align: left; height:15px; text-align:justify; text-justify:inter-ideograph;}
 
 body {
     font-family: "Source Sans Pro", sans-serif; 
